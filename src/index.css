@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+
+@font-face{
+  font-family: Regular;
+  src: url('../public/Fonts/PPMori-Regular.woff2');
+}
+@font-face{
+  font-family: Semibold;
+  src: url('../public/Fonts/PPMori-SemiBold.woff2');
+}
+@font-face{
+  font-family: Editorialitalic;
+  src: url('..\public\Fonts\EditorialNew-Italic.woff2');
+}
+@font-face{
+  font-family: Editorialreg;
+  src: url('..\public\Fonts\EditorialNew-Regular.woff2');
+}
+@font-face{
+  font-family: Editoriallightitalic;
+  src: url('..\public\Fonts\EditorialNew-Lightitalic.woff2');
+}
+@font-face{
+  font-family: Reg;
+  src: url('..\public\Fonts\PPMori-Regular.woff');
+}
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
+
+  
+
+
+
+
+
