@@ -133,7 +133,7 @@ useGSAP(()=>{
           setrotatec(0)
         }
       }} className="max-md:grid max-md:-mt-1 max-md:ml-4 max-md:gap-1  hidden">
-          <div className={`${rotatec===0 ? 'hidden':'absolute'} `}>
+          <div className={`${rotatec===0 ? 'hidden':'relative'} `}>
         <div className="  bg-amber-400   h-[150vh] w-89 -ml-1 ">
 
         </div>
