@@ -205,7 +205,7 @@ useGSAP(() => {
         </div>
 
         <div className="mt-10  ml-2 max-md:overflow-x-hidden">
-          <div ref={BrillianceRef} className="flex gap-6 w-full   max-md:h-[50vh]  max-md:overflow-auto">
+          <div ref={BrillianceRef} className="flex gap-6 w-full overflow-y-hidden  max-md:h-[50vh]  max-md:overflow-auto">
             {Brilliancedata.map((elem) => {
               return (
                 <div  onClick={()=>{
@@ -281,7 +281,7 @@ useGSAP(() => {
           </div>
         </div>
         <div className="mt-10 max-md:overflow-hidden">
-          <div ref={BlendsRef} className="flex max-md:overflow-x-auto max-md:h-[70vh]  gap-6 max-md:ml-2 w-full">
+          <div ref={BlendsRef} className="flex max-md:overflow-x-auto  max-md:h-[70vh]  gap-6 max-md:ml-2 w-full">
             {VarnayaBlendsdata.map((elem) => {
               return (
                 <div onClick={()=>{
@@ -365,7 +365,7 @@ useGSAP(() => {
           </div>
         </div>
         <div className="mt-10 overflow-hidden w-full">
-          <div ref={DewRef} className="flex max-md:h-[70vh] max-md:ml-2 max-md:overflow-x-auto gap-6">
+          <div ref={DewRef} className="flex max-md:h-[70vh] max-md:ml-2 max-md:overflow-x-auto overflow-y-hidden md:h-[70vh] gap-6">
             {DailyDewdata.map((elem) => {
               return (
                 <div onClick={()=>{

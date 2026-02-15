@@ -53,7 +53,7 @@ const Videocontent = () => {
   return (
     <div className='relative   -mt-[85vh] ml-[30vw] max-md:-mt-140 z-10'>
      
-        <div ref={landRef} className='flex flex-wrap text-center text-[#fdfdfd] w-[50vw] max-md:w-[80vw] max-md:-ml-20 max-md:text-[40px] text-7xl'>
+        <div ref={landRef} className='flex flex-wrap text-center text-[#fdfdfd] w-[50vw] max-md:w-[90vw] max-md:-ml-20 max-md:text-[40px] text-7xl'>
             <div  className='font-[Editoriallightitalic]'>True &nbsp;</div>
             <div   className='font-[Semibold] flex flex-wrap'>to Oneself
 </div>

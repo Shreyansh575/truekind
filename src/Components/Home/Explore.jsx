@@ -91,7 +91,7 @@ const Brilliancedata = [
 
 
             <div className='max-md:w-screen '>
-                <div className='flex w-screen overflow-x-hidden max-md:ml-0 max-md:overflow-x-auto   ml-15 gap-5 mt-10 max-md:mt-5'>
+                <div className='flex w-screen overflow-x-hidden max-md:ml-0 max-md:overflow-x-auto max-md:overflow-auto max-md:overflow-y-hidden   ml-15 gap-5 mt-10 max-md:mt-5'>
 
                     {Brilliancedata.map((elem)=>{
                         return(
@@ -101,7 +101,7 @@ const Brilliancedata = [
                                 <div className='bg-white rounded-full  w-30  font-[Regular] text-[12px] text-center h-5 flex items-center justify-center uppercase max-md: max-md:mt-5 absolute z-100 mt-3 ml-5'>
                                 {elem.heading}
                                 </div>
-                                <img src={elem.img} className='h-100 min-w-70 max-md:min-w-60 max-md:h-80 cursor-pointer relative rounded-4xl object-cover' alt="" />
+                                <img src={elem.img} className='h-100 min-w-70 max-md:min-w-70 max-md:h-80 cursor-pointer relative rounded-4xl object-cover' alt="" />
 
                                 <div className='absolute w-55 leading-4 ml-3 max-md:flex -mt-13 max-md:text-[13px] text-[15px]'>
 {elem.name}
@@ -151,7 +151,7 @@ Blends</div>
 
 <div className='max-md:overflow-x-hidden'>
      <div className='flex max-md:mt-5 -ml-100 gap-5 mt-10 max-md:ml-0 md:overflow-hidden '>
-                        <div className='flex gap-5 overflow-auto'>
+                        <div className='flex gap-5 overflow-auto max-md:overflow-y-hidden'>
                     {VarnayaBlendsdata.map((elem)=>{
                         return(
                             <div onClick={()=>{
@@ -160,7 +160,7 @@ Blends</div>
                                 <div className='bg-white rounded-full  w-30  font-[Regular] text-[12px] text-center h-5 flex items-center justify-center uppercase absolute z-100 mt-3 ml-5'>
                                 {elem.heading}
                                 </div>
-                                <img src={elem.img} className='h-100 min-w-60 cursor-pointer relative rounded-4xl object-cover' alt="" />
+                                <img src={elem.img} className='h-100 min-w-70 cursor-pointer relative rounded-4xl object-cover' alt="" />
 
                                 <div className='absolute w-55 leading-4 ml-3 -mt-13  text-[15px]'>
 {elem.name}

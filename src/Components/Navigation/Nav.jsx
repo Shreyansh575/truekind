@@ -16,44 +16,27 @@ const Nav = () => {
   const [rotatec, setrotatec] = useState(0)
   const pathname  = useLocation().pathname
 
-useEffect(()=>{
 
-  if(pathname==='/shop'){
-    setColor(`#414141`)
-    settextColor('text-gray-900')
-    
+
+useEffect(() => {
+
+  const darkPages = ['/shop', '/philosophy', '/gallary', '/journal'];
+  const isDarkPath = darkPages.some(path => pathname.includes(path));
+
+
+  if (isDarkPath || rotatec === 1) {
+    setColor("#414141");
+    settextColor("text-gray-800"); 
+  } else {
+  
+    setColor("#f2f2f2");
+    settextColor("text-gray-50"); 
   }
-  if(pathname==='/shop/Pure%20Brilliance'){
-    setColor(`#414141`)
-    settextColor('text-gray-800')
-    
-  }
-  if(pathname==='/philosophy'){
-    setColor(`#414141`)
-    settextColor('text-gray-800')
-    
-  }
-  if(pathname==='/gallary'){
-    setColor(`#414141`)
-    settextColor('text-gray-800')
-    
-  }
-  if(pathname==='/journal'){
-    setColor(`#414141`)
-    settextColor('text-gray-800')
-    
-  }
-  if(rotatec===1){
-    setColor(`#414141`)
-    settextColor('text-gray-800')
-    
-  }
-  if(rotatec===0){
-    setColor(`#f2f2f2`)
-    settextColor('text-gray-50')
-    
-  }
-},[pathname,rotatec])
+  
+}, [pathname, rotatec]); 
+
+
+
 
 useGSAP(() => {
   if (rotatec === 1) {
@@ -144,10 +127,10 @@ useGSAP(()=>{
         }
       }} className="max-md:grid max-md:-mt-1 max-md:ml-4 max-md:gap-1 z-50000000000000000000000000000000  hidden">
           <div className={`${rotatec===0 ? 'hidden':'absolute '} `}>
-        <div className="  bg-white p-1   h-[100vh] w-89 -ml-5 -mt-10 ">
+        <div className="  bg-white z-10000000000000  p-1 h-[100vh] w-89 -ml-5 -mt-10 ">
 
-          <div className="space-y-2 grid font-[Reg] text-[33px] ml-5 mt-30">
-            <Link to={'/shop'}>Shop</Link>
+          <div className={`space-y-2 grid font-[Reg] text-[33px] ml-5 text-${textColor} mt-30`}>
+            <Link to={'/shop'} className={``}>Shop</Link>
             <Link  to={'/philosophy'}>Philosophy</Link>
             <Link to={'/gallary'}>Gallary</Link>
             <Link to={'/journal'}>Journal</Link>
