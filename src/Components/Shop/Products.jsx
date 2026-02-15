@@ -204,15 +204,15 @@ useGSAP(() => {
           </div>
         </div>
 
-        <div className="mt-10">
-          <div ref={BrillianceRef} className="flex gap-6 w-full">
+        <div className="mt-10  ml-2 max-md:overflow-x-hidden">
+          <div ref={BrillianceRef} className="flex gap-6 w-full   max-md:h-[50vh]  max-md:overflow-auto">
             {Brilliancedata.map((elem) => {
               return (
                 <div  onClick={()=>{
                   navigate(`/shop/${elem.heading}`,{state:elem})
-                }} className="group opacity-0 cursor-pointer rounded-4xl">
+                }} className="group opacity-0 cursor-pointer  rounded-4xl">
                   <img
-                    className="h-[60vh] group-hover:hidden  rounded-2xl "
+                    className="h-[60vh]  group-hover:hidden  rounded-2xl max-md:min-w-80  max-md:h-[50vh]"
                     src={elem.img}
                     alt=""
                   />
@@ -260,7 +260,7 @@ useGSAP(() => {
                   <div className="ml-3 w-50 leading-4 font-[Semibold]  -mt-10 absolute text-[12px] text-gray-800 uppercase">
                     {elem.name}
                   </div>
-                  <div className="ml-63 -mt-10 font-[Semibold]">
+                  <div className="ml-63 -mt-10 font-[Semibold] max-md:ml-60">
                     {elem.price}
                   </div>
                 </div>
@@ -271,7 +271,7 @@ useGSAP(() => {
       </div>
 
 
-      <div className="w-full">
+      <div className="w-full  ">
         <div ref={BlendstextRef}>
           <div className="font-[Semibold] text-gray-300 opacity-0 mt-10 text-[36px]">
             A Blend of Ayurveda & Scinece,
@@ -280,15 +280,15 @@ useGSAP(() => {
             Varnaya Blends
           </div>
         </div>
-        <div className="mt-10">
-          <div ref={BlendsRef} className="flex gap-6 w-full">
+        <div className="mt-10 max-md:overflow-hidden">
+          <div ref={BlendsRef} className="flex max-md:overflow-x-auto max-md:h-[70vh]  gap-6 max-md:ml-2 w-full">
             {VarnayaBlendsdata.map((elem) => {
               return (
                 <div onClick={()=>{
                   navigate(`/shop/${elem.heading}`,{state:elem})
                 }} className="group cursor-pointer rounded-4xl opacity-0">
                   <img
-                    className="h-[60vh] group-hover:hidden  rounded-2xl "
+                    className="h-[60vh] group-hover:hidden  rounded-2xl max-md:min-w-82 "
                     src={elem.img}
                     alt=""
                   />
@@ -298,10 +298,10 @@ useGSAP(() => {
                     alt=""
                   />
 
-                  <div className="absolute -mt-92 ml-3 px-5 p-1 text-[13px] rounded-full uppercase bg-[#FFFF]">
+                  <div className="absolute -mt-92 ml-3 px-5 p-1 text-[13px] rounded-full max-md:-mt-107 uppercase bg-[#FFFF]">
                     {elem.heading}
                   </div>
-                  <div className="absolute -mt-92 ml-63  text-[13px] rounded-full uppercase flex justify-center items-center bg-[#FFFF] h-8 w-8">
+                  <div className="absolute -mt-92 ml-63  text-[13px] rounded-full uppercase flex justify-center items-center max-md:-mt-107 bg-[#FFFF] h-8 w-8">
                     <svg
                       data-v-1614f35c=""
                       width="30"
@@ -364,15 +364,15 @@ useGSAP(() => {
 
           </div>
         </div>
-        <div className="mt-10 w-full">
-          <div ref={DewRef} className="flex gap-6">
+        <div className="mt-10 overflow-hidden w-full">
+          <div ref={DewRef} className="flex max-md:h-[70vh] max-md:ml-2 max-md:overflow-x-auto gap-6">
             {DailyDewdata.map((elem) => {
               return (
                 <div onClick={()=>{
                   navigate(`/shop/${elem.heading}`,{state:elem})
                 }} className="group opacity-0 cursor-pointer rounded-4xl">
                   <img
-                    className="h-[60vh] group-hover:hidden  rounded-2xl "
+                    className="h-[60vh] group-hover:hidden  rounded-2xl max-md:min-w-83"
                     src={elem.img}
                     alt=""
                   />
@@ -382,10 +382,10 @@ useGSAP(() => {
                     alt=""
                   />
 
-                  <div className="absolute -mt-92 ml-3 px-5 p-1 text-[13px] rounded-full uppercase bg-[#FFFF]">
+                  <div className="absolute -mt-92 ml-3 px-5 p-1 max-md:-mt-105 text-[13px] rounded-full uppercase bg-[#FFFF]">
                     {elem.heading}
                   </div>
-                  <div className="absolute -mt-92 ml-63  text-[13px] rounded-full uppercase flex justify-center items-center bg-[#FFFF] h-8 w-8">
+                  <div className="absolute -mt-92 ml-63  max-md:-mt-105 max-md:ml-70 text-[13px] rounded-full uppercase flex justify-center items-center bg-[#FFFF] h-8 w-8">
                     <svg
                       data-v-1614f35c=""
                       width="30"

@@ -51,9 +51,9 @@ const Videocontent = () => {
 
 
   return (
-    <div className='relative -mt-[85vh] ml-[30vw] z-300'>
+    <div className='relative   -mt-[85vh] ml-[30vw] max-md:-mt-140 z-10'>
      
-        <div ref={landRef} className='flex flex-wrap text-center text-[#fdfdfd] w-[50vw] text-7xl'>
+        <div ref={landRef} className='flex flex-wrap text-center text-[#fdfdfd] w-[50vw] max-md:w-[80vw] max-md:-ml-20 max-md:text-[40px] text-7xl'>
             <div  className='font-[Editoriallightitalic]'>True &nbsp;</div>
             <div   className='font-[Semibold] flex flex-wrap'>to Oneself
 </div>
@@ -65,7 +65,7 @@ const Videocontent = () => {
 <div ref={landRef}>
 
 
-        <div  className='w-[30vw] mt-2 leading-5 text-[#ededed] text-center ml-20 font-[Semibold]'>Unreservedly honest products that truly work, be
+        <div  className='w-[30vw] mt-2 leading-5 text-[#ededed] max-md:-ml-20 max-md:w-[80vw] text-center ml-20 font-[Semibold]'>Unreservedly honest products that truly work, be
 kind to skin and the planet – no exceptions!</div>
 </div>
 
@@ -85,11 +85,11 @@ kind to skin and the planet – no exceptions!</div>
   
 }}
 
-className='mt-[30vh] bg-white hover:cursor-pointer p-1 rounded-full flex w-[46vw] -ml-10  justify-center '>
-<div className='text-[12px] ml-60 underline flex items-center '>EXPLORE ALL PRODUCT
+className='mt-[30vh] bg-white hover:cursor-pointer p-1 rounded-full flex w-[46vw] -ml-10  justify-center max-md:w-[90vw] max-md:-ml-26 '>
+<div className='text-[12px] underline-offset-4 max-md:w-90 ml-60 max-md:ml-5 underline flex items-center '>EXPLORE ALL PRODUCT
 </div>
 
-<div className='group rounded-full w-10 py-3 px-0 bg-[#434343] flex items-start ml-50'>
+<div className='group rounded-full w-10 py-3 px-0 bg-[#434343] flex items-start ml-50 max-md:ml-10'>
    <div ref={arrow2Ref} className={`${count===0 ? 'opacity-0 ':'block'}`}>
 
   

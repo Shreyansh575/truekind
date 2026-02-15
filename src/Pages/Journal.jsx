@@ -89,13 +89,13 @@ const Journal = () => {
       </div>
 
 
-      <div className='ml-15'>
-        <div><img src="https://images.prismic.io/truekind/Z-Ac73dAxsiBvxdO_elegant-glass-dropper-bottles.jpg?auto=format,compress" className='h-100 w-170 object-cover ' alt="" /></div>
+      <div className='ml-15 max-md:-ml-10 max-md:px-15'>
+        <div><img src="https://images.prismic.io/truekind/Z-Ac73dAxsiBvxdO_elegant-glass-dropper-bottles.jpg?auto=format,compress" className='h-100 max-md:h-[40vh] max-md:w-screen w-170 object-cover ' alt="" /></div>
 
         <div>
-          <div className='font-[Reg] text-[25px] w-120 leading-7 mt-5 hover:underline text-[#848484]'>Beauty Secrets from Around the World: Rituals and Ingredients You Need to Try</div>
+          <div className='font-[Reg] text-[25px] w-120 max-md:w-[80vw] max-md:leading-6  leading-7 max-md:text-[20px] mt-5  hover:underline text-[#848484]'>Beauty Secrets from Around the World: Rituals and Ingredients You Need to Try</div>
         </div>
-        <div className='w-120 font-[Reg] text-[12px] mt-5 leading-4 text-[#9A9A9A]'>Drawing from our rich ayurvedic legacy of over 30 years and embracing dermal science, we aim to create transparent skincare that is incredibly effective, safe and without harming the environment or the planet.</div>
+        <div className='w-120 font-[Reg] text-[12px] mt-5 max-md:w-[80vw] leading-4 text-[#9A9A9A]'>Drawing from our rich ayurvedic legacy of over 30 years and embracing dermal science, we aim to create transparent skincare that is incredibly effective, safe and without harming the environment or the planet.</div>
       </div>
 
 
@@ -110,10 +110,10 @@ Is a Toner necessary in your skincare routine?</div>
           </div>
         </div>
 
-        <div>
-          <img className='h-80  w-105 object-cover relative' src="https://images.prismic.io/truekind/Z-6uzHdAxsiBwSpf_journal-3.jpg?auto=format,compress" alt="" />
+        <div className=''>
+          <img className='h-80 max-md:w-[100vw]  w-105 object-cover max-md:h-[40vh] relative' src="https://images.prismic.io/truekind/Z-6uzHdAxsiBwSpf_journal-3.jpg?auto=format,compress" alt="" />
 
-            <div className='w-100 mt-3'>
+            <div className='w-100 max-md:w-[80vw] mt-3'>
             <div className='hover:underline font-[Reg] text-[23px] leading-7'>
 
 How to Make Your Routine More Eco-Friendly</div>
@@ -122,7 +122,7 @@ How to Make Your Routine More Eco-Friendly</div>
         </div>
       </div>
 
-      <div className='-mt-100'>
+      <div className='-mt-100 max-md:hidden'>
         <svg
   viewBox="0 0 1440 320"
   className="w-full h-[250px]"
@@ -145,14 +145,14 @@ How to Make Your Routine More Eco-Friendly</div>
 
 
 
-      <div className='mt-70 ml-15 flex'>
+      <div className='mt-70 ml-15 max-md:grid max-md:ml-0 flex max-md:px-5'>
         <div>
-          <img src="https://images.prismic.io/truekind/Z-6shXdAxsiBwSng_journal-2.jpg?auto=format,compress" className='h-130 w-135 object-cover' alt="" />
+          <img src="https://images.prismic.io/truekind/Z-6shXdAxsiBwSng_journal-2.jpg?auto=format,compress" className='h-130 w-135 max-md:w-[90vw] max-md:h-[40vh] object-cover' alt="" />
           <div className='mt-4'>
-            <div className='hover:underline decoration-2 text-[30px] w-130 leading-8 text-[#474747]'>
+            <div className='hover:underline decoration-2 text-[30px] max-md:w-[50vh] max-md:leading-5 max-md:text-[20px] w-130 leading-8 text-[#474747]'>
 Your Skincare and Makeup Routine Impacts Your Well-Being</div>
 
-<div className='w-110 mt-3 text-[13px] text-[#adadad] leading-4'>
+<div className='w-110 mt-3 max-md:w-[50vh] max-md:leading-4 text-[13px] text-[#adadad] leading-4'>
 Discover the connection between your skincare and makeup routine and overall well-being. Learn how daily beauty habits impact mental health, self-esteem, and emotional resilience, and find a healthier approach.
 </div>
 <div className='mt-5 text-[Reg] text-[11px] text-[#6b6b6b]'>
@@ -161,15 +161,15 @@ Discover the connection between your skincare and makeup routine and overall wel
           </div>
         </div>
 
-        <div className='ml-20 mt-50'>
+        <div className='ml-20 max-md:ml-0 max-md:px-5 mt-50'>
           <div>
-            <img src="	https://images.prismic.io/truekind/Z-6shHdAxsiBwSnf_journal-1.jpg?auto=format,compress" className='h-110 w-170 object-cover' alt="" />
+            <img src="	https://images.prismic.io/truekind/Z-6shHdAxsiBwSnf_journal-1.jpg?auto=format,compress" className='h-110 max-md:h-[40vh] max-md:w-[40vh]  w-170 object-cover' alt="" />
           </div>
 
 
           <div>
-            <div className='w-130 leading-8 mt-5 font-[Reg] hover:underline decoration-2 text-[#5b5b5b] text-[30px]'>The Ultimate Guide to Choosing the Right Foundation for Your Skin Tone</div>
-            <div className='mt-3 text-[#b3b3b3] w-100 font-[Reg]  text-[13px]'>Discover global beauty secrets and rituals. Explore unique ingredients and traditions from around the world to elevate your skincare and beauty routine.</div>
+            <div className='w-130 max-md:w-[50vh] max-md:leading-5 max-md:text-[20px] leading-8 mt-5 font-[Reg] hover:underline decoration-2 text-[#5b5b5b] text-[30px]'>The Ultimate Guide to Choosing the Right Foundation for Your Skin Tone</div>
+            <div className='mt-3 text-[#b3b3b3] w-100 font-[Reg] max-md:w-[45vh]   text-[13px]'>Discover global beauty secrets and rituals. Explore unique ingredients and traditions from around the world to elevate your skincare and beauty routine.</div>
             <div className='mt-1 font-[Reg] text-[12px] text-[#444444]'>14 Nov 2024</div>
           </div>
         </div>

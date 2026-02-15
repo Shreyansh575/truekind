@@ -43,7 +43,7 @@ const Gallary = () => {
 
     <div className=" fixed ml-[40vw] text-[#3B3B3B]  mt-60">
         
-        <div className="text-6xl  ">
+        <div className="text-6xl  max-md:-ml-20  ">
         <div className="font-[Semibold]">Glow Up</div>
         <div className="text-center font-[Editoriallightitalic]">Gallary</div>
         </div>

@@ -177,7 +177,7 @@ const Sidenav = () => {
 
   
   return (
-    <div className=' h-screen p-1 w-[24vw] sticky top-0'>
+    <div className=' max-md:hidden h-screen p-1 w-[24vw] sticky top-0'>
         <div ref={topRef} className=' mt-22 p-1   '>
          
  <div className='font-[Semibold] text-[15px] text-gray-700  mt-5 ml-16 absolute'>

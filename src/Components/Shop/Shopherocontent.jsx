@@ -81,15 +81,34 @@ const Shopherocontent = () => {
 
     <div   className="w-full flex justify-center items-center  -mt-150 py-10">
 
-    <div ref={landtRef} className="uppercase font-[Semibold] text-7xl text-gray-700 -ml-50 -mt-50 ">Meet Our</div>
+    <div ref={landtRef} className="uppercase font-[Semibold] text-7xl text-gray-900 -ml-50 -mt-50 max-md:ml-10 max-md:text-[30px]  max-md:-mt-70  ">Meet Our</div>
 
 
 
-      <div className=" ml-40">
+      <div className=" ml-40 ">
       <svg
-        className="block"
+        className="block max-md:hidden "
         width="450"
         height="300"
+        viewBox="0 0 560 349"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+      >
+        <path
+          ref={pathRef}
+          d="M554.586 348.365C554.788 348.594 555.137 348.616 555.365 348.414L559.089 345.128C559.317 344.926 559.339 344.577 559.137 344.349C558.936 344.12 558.587 344.099 558.358 344.3L555.049 347.221L552.128 343.912C551.926 343.683 551.577 343.661 551.349 343.863C551.12 344.065 551.098 344.413 551.3 344.642L554.586 348.365ZM1.16986 31.8883C154.053 -17.5738 296.512 -4.53168 398.664 53.8484C500.798 112.218 562.686 215.931 554.449 347.966L555.551 348.035C563.814 215.57 501.702 111.464 399.211 52.8902C296.738 -5.67328 153.947 -18.6996 0.830145 30.8383L1.16986 31.8883Z"
+          stroke="black"
+          strokeWidth="0.8"
+          fill="none"
+        />
+      </svg>
+
+
+       <svg
+        className="hidden -ml-50 max-md:-mt-20 max-md:-ml-70  max-md:flex"
+        width="150"
+        height="150"
         viewBox="0 0 560 349"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +127,7 @@ const Shopherocontent = () => {
 
 
 
-    <div ref={landRef} className="-mt-20 flex justify-between p-1 items-center px-20 ">
+    <div ref={landRef} className="-mt-20 flex justify-between p-1 max-md:-ml-12 max-md:mt-90 items-center px-20 ">
       <div className="h-70 w-70   rounded-3xl bg-[#FFFFFF]">
       <div className="grid text-4xl text-gray-800 mt-5 ml-5">
         <div className="font-[Semibold]">Undersatnd</div>
@@ -139,7 +158,7 @@ journal to read more.
 
 
 
-      <div className="text-[83px] text-gray-800 leading-20 w-80 text-center font-[Editorialitalic]">complete
+      <div className="text-[83px] text-gray-800 leading-20 w-80 max-md:-mt-330 max-md:text-4xl max-md:leading-10 max-md:-ml-250 px-60 text-center font-[Editorialitalic]">complete
 lineup</div>
     </div>
     </>

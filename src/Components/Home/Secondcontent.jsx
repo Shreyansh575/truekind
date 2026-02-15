@@ -38,19 +38,21 @@ useGSAP(() => {
 }, []);
 
   return (
-    <div ref={bodyRef} className='mt-30 relative h-[220vh]  ml-20   z-50000   p-1'>
+    <div ref={bodyRef} className='mt-30 relative h-[220vh]  ml-20 max-md:ml-0  z-50000   p-1'>
 
     <div >
-      <div className='text-[60px] w-180 text-[#5a5a5a] font-[Semibold] leading-15 mt-18 uppercase '>Clean, Conscious,
+      <div className='text-[60px] max-md:w-[50vw] w-180 text-[#5a5a5a] font-[Semibold] leading-15 mt-18 uppercase max-md:text-[30px] max-md:leading-9   '>Clean, Conscious,
 Performance</div>
 
-<div className='flex'>
-  <div className='w-70 text-[Semibold] leading-4 text-[13px] mt-10 text-[#696969]'>Unreservedly honest products that truly work, be kind to skin and the planet – no exceptions!</div>
-  <div className='font-[Editoriallightitalic] mt-5 underline decoration-2 underline-offset-6 decoration- ml-10 text-7xl'>skincare</div>
+<div className='flex p-1 max-md:grid'>
+  <div className='w-70 text-[Semibold] leading-4 text-[13px] mt-10 max-md:mt-15 text-[#696969]'>Unreservedly honest products that truly work, be kind to skin and the planet – no exceptions!</div>
+  <div className='font-[Editoriallightitalic] mt-5 underline decoration-2 underline-offset-6 decoration- ml-10 max-md:text-[48px] max-md:text-[#3b3b3b] max-md:-mt-23 max-md:ml-0 text-7xl'>skincare</div>
 </div>
     </div>
 
-<div>
+<div className=''>
+
+  <div className='max-md:hidden'>
 
    <div ref={scrollRef} className='bg-[#F5F5F5] mt-50 rounded-2xl ml-60 h-70 w-60 relative z-20'>
             <div className='flex  justify-center'>
@@ -72,7 +74,7 @@ Performance</div>
 </div>
 
 
- <div ref={scroll2Ref} className='bg-[#F5F5F5] mt-20 rounded-2xl  h-70 w-60 relative z-20'>
+ <div ref={scroll2Ref} className='bg-[#F5F5F5] mt-20 rounded-2xl max-md:absolute   h-70 w-60 relative z-20'>
             <div className='flex  justify-center'>
               <img src="https://truekindskincare.com/icon-clean-beyond-reproach.svg" alt="" className='h-20 w-20' />
             </div>
@@ -129,9 +131,14 @@ Performance</div>
             Peta Certified Vegan and Cruelty Free. Our products are always housed in responsible packaging and made sustainably.
               </div>
             </div>
+
+</div>
 </div>
 
 
+
+
+<div className='max-md:hidden'>
 <div ref={imgRef}>
   <img src="https://truekindskincare.com/_ipx/w_768&f_webp&q_95/leaf.png" alt="" className='relative  -mt-100 ml-230 h-50 object-cover' />
 </div>
@@ -139,15 +146,15 @@ Performance</div>
 <div ref={img2Ref} >
   <img className='absolute mt-80 ml-50 h-50 object-cover ' src="https://truekindskincare.com/_ipx/w_768&f_webp&q_95/empress.png" alt="" />
 </div>
+</div>
 
 
-
-     <div className=' -mt-230   ml-40'>
+     <div className=' -mt-230 max-md:-mt-10   ml-40'>
 
 
      
          
-<svg viewBox="0 0 800 1200" class="w-[900px] absolute -z-10" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 1200" class="w-[900px] absolute max-md:w-[320px] max-md:-ml-40 -z-10" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <clipPath id="ellipsoidClipRotateLarge">
       <ellipse
@@ -180,6 +187,64 @@ Performance</div>
 
 
 
+
+<div className='max-md:flex ml-8  py-100
+0 max-md:flex-wrap hidden'>
+
+  <div className='flex '>
+    <div className='w-35 py-3 border-r-[1px]  border-b-[1px] border-[#9f9f9f]'>
+      <div className='flex bg-white rounded-full   justify-center'>
+        <img src="https://truekindskincare.com/icon-clean-beyond-reproach.svg" alt="" className='h-20 w-20' />
+      </div>
+
+      <div className='text-center text-[14px] text-[#564545] font-[Semibold] leading-5'>
+          Clean, Beyond Reproach
+      </div>
+    </div>
+
+
+    <div className='w-30  py-3  border-b-[1px] border-[#9f9f9f]' >
+      <div className='flex  justify-center'>
+              <img src="https://truekindskincare.com/icon-radical-transparency.svg" alt="" className='h-20 w-20' />
+            </div>
+            <div className='text-center text-[14px] text-[#564545] font-[Semibold] leading-5'>
+          Radical Transparency
+      </div>
+    </div>
+    </div>
+
+
+
+<div className='flex  ml-3'>
+    <div  className='w-32 py-3 border-r-[1px]  border-[#9f9f9f]'>
+       <div className='flex  justify-center'>
+              <img src="https://truekindskincare.com/icon-highest-standards.svg" alt="" className='h-20 w-20' />
+            </div>
+
+
+            <div className='text-center text-[14px] text-[#564545] font-[Semibold] leading-5'>
+             Potent & Multi Tasking
+      </div>
+    </div>
+
+
+    <div className='w-30 py-3 border-[#9f9f9f]'>
+      <div className='flex  justify-center'>
+              <img src="https://truekindskincare.com/icon-conscious-responsible.svg" alt="" className='h-20 w-20' />
+            </div>
+
+
+             <div className='text-center text-[14px] text-[#564545] font-[Semibold] leading-4'>
+            Consious and Responsible
+      </div>
+    </div>
+
+    </div>
+
+
+    
+
+</div>
 
 
 

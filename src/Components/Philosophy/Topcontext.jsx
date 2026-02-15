@@ -67,11 +67,12 @@ const Topcontext = () => {
 
   return (
     <div>
-      <div className='flex justify-center mt-30'>
-        <img className='relative' src="	https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/philosophy.png" alt="" />
+      <div className='flex justify-center max-md:mt-30 max-md:w-[70vw] max-md:ml-8 mt-30'>
+        <img className='relative ' src="	https://truekindskincare.com/_ipx/w_1280&f_webp&q_95/philosophy.png" alt="" />
+       
       </div>
 
- <div className='-mt-100'>
+ <div className='-mt-100 max-md:hidden'>
         <svg
   viewBox="0 0 1440 320"
   className="w-full h-[250px]"
@@ -93,12 +94,12 @@ const Topcontext = () => {
       </div>
 
 
-      <div  className='flex text-[115px] ml-10 -mt-95 text-[#3B3B3B]  gap-2'>
+      <div  className='flex text-[115px] ml-10 -mt-95 text-[#3B3B3B] max-md:text-[60px] max-md:-mt-63  gap-2'>
         <div ref={landtRef} className='font-[Editorialitalic]'>Be </div>
         <div ref={landtRef}  className='font-[Semibold]'><div>True</div> </div>
       </div>
 
-<div  className='flex  justify-end mr-40'>
+<div  className='flex max-md:hidden  justify-end mr-40'>
       <div ref={arrowRef} onMouseEnter={()=>{
         sethoverc(1)
       }} onMouseLeave={()=>{
@@ -111,12 +112,12 @@ const Topcontext = () => {
       </div>
 
 
-      <div ref={landRef} className='flex justify-between px-7 mt-60'>
-        <div className='w-50 text-[12px] font-[Regular] mt-5 text-[#7A7A7A]'>Our simple philosophy in all that we
+      <div ref={landRef} className='flex justify-between px-7 max-md:px-25 max-md:mt-60  mt-60'>
+        <div className='w-50 max-md:mt-16 text-[12px] font-[Regular] mt-5 max-md:leading-3 max-md:-ml-15 text-[#7A7A7A]'>Our simple philosophy in all that we
 do. We are passionate about skin
 care, we are truekind.</div>
 
-<div className='flex text-8xl text-[#3B3B3B] gap-5'>
+<div className='flex text-8xl max-md:text-[60px] text-[#3B3B3B] max-md:-ml-50  gap-5'>
   <div className='font-[Editoriallightitalic]'>Be </div>
   
   <div className='font-[Semibold]'>Kind</div>
