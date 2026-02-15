@@ -1,37 +1,35 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
-@font-face{
-  font-family: Regular;
-  src: url('../public/Fonts/PPMori-Regular.woff2');
-}
-@font-face{
-  font-family: Semibold;
-  src: url('../public/Fonts/PPMori-SemiBold.woff2');
-}
-@font-face{
-  font-family: Editorialitalic;
-  src: url('..\public\Fonts\EditorialNew-Italic.woff2');
-}
-@font-face{
-  font-family: Editorialreg;
-  src: url('..\public\Fonts\EditorialNew-Regular.woff2');
-}
-@font-face{
-  font-family: Editoriallightitalic;
-  src: url('..\public\Fonts\EditorialNew-Lightitalic.woff2');
-}
-@font-face{
-  font-family: Reg;
-  src: url('..\public\Fonts\PPMori-Regular.woff');
+@font-face {
+  font-family: "Regular";
+  src: url("/Fonts/PPMori-Regular.woff2") format("woff2");
 }
 
-  ::-webkit-scrollbar{
-    display: none;
-  }
+@font-face {
+  font-family: "Semibold";
+  src: url("/Fonts/PPMori-SemiBold.woff2") format("woff2");
+}
 
-  
+@font-face {
+  font-family: "Editorialitalic";
+  src: url("/Fonts/EditorialNew-Italic.woff2") format("woff2");
+}
 
+@font-face {
+  font-family: "Editorialreg";
+  src: url("/Fonts/EditorialNew-Regular.woff2") format("woff2");
+}
 
+@font-face {
+  font-family: "Editoriallightitalic";
+  src: url("/Fonts/EditorialNew-LightItalic.woff2") format("woff2");
+}
 
+@font-face {
+  font-family: "Reg";
+  src: url("/Fonts/PPMori-Regular.woff") format("woff");
+}
 
-
+::-webkit-scrollbar {
+  display: none;
+}
