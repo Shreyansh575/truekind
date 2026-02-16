@@ -16,7 +16,7 @@ const Radicaltranperency = () => {
                 scrub:true,
           
             onUpdate:(e)=>{
-                const movey = (e.progress)*(-700)
+                const movey = (e.progress)*(-1000)
                 console.log(movey);
                 gsap.set(imgRef.current,{
                     y:movey

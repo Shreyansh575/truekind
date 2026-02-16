@@ -205,14 +205,14 @@ useGSAP(() => {
         </div>
 
         <div className="mt-10  ml-2 max-md:overflow-x-hidden">
-          <div ref={BrillianceRef} className="flex gap-6 w-full overflow-y-hidden  max-md:h-[50vh]  max-md:overflow-auto">
+          <div ref={BrillianceRef} className="flex gap-6 w-full overflow-y-hidden  max-md:h-[50vh] md:h-[80vh]  max-md:overflow-auto">
             {Brilliancedata.map((elem) => {
               return (
                 <div  onClick={()=>{
                   navigate(`/shop/${elem.heading}`,{state:elem})
                 }} className="group opacity-0 cursor-pointer  rounded-4xl">
                   <img
-                    className="h-[60vh]  group-hover:hidden  rounded-2xl max-md:min-w-80  max-md:h-[50vh]"
+                    className="h-[60vh]  group-hover:hidden  rounded-2xl max-md:min-w-80  max-md:h-[45vh]"
                     src={elem.img}
                     alt=""
                   />
@@ -288,7 +288,7 @@ useGSAP(() => {
                   navigate(`/shop/${elem.heading}`,{state:elem})
                 }} className="group cursor-pointer rounded-4xl opacity-0">
                   <img
-                    className="h-[60vh] group-hover:hidden  rounded-2xl max-md:min-w-82 "
+                    className="h-[60vh] group-hover:hidden  rounded-2xl max-md:h-[45vh] max-md:min-w-82 "
                     src={elem.img}
                     alt=""
                   />
@@ -372,7 +372,7 @@ useGSAP(() => {
                   navigate(`/shop/${elem.heading}`,{state:elem})
                 }} className="group opacity-0 cursor-pointer rounded-4xl">
                   <img
-                    className="h-[60vh] group-hover:hidden  rounded-2xl max-md:min-w-83"
+                    className="h-[60vh] group-hover:hidden  rounded-2xl max-md:h-[45vh] max-md:min-w-83"
                     src={elem.img}
                     alt=""
                   />
