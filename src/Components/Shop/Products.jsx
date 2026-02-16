@@ -23,7 +23,7 @@ useGSAP(() => {
   gsap.to(bodyRef.current, {
     scrollTrigger: {
       trigger: bodyRef.current,
-      start: "top 53%",
+      start: "top 33%",
    
 
       onEnter: () => {

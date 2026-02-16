@@ -85,7 +85,7 @@ kind to skin and the planet – no exceptions!</div>
   
 }}
 
-className='mt-[30vh] bg-white hover:cursor-pointer p-1 rounded-full flex w-[46vw] -ml-10  justify-center max-md:w-[90vw] max-md:-ml-26 '>
+className='mt-[30vh]  bg-white hover:cursor-pointer p-1 rounded-full flex w-[46vw] -ml-10  justify-center max-md:w-[90vw] max-md:-ml-21 '>
 <div className='text-[12px] underline-offset-4 max-md:w-90 ml-60 max-md:ml-5 underline flex items-center '>EXPLORE ALL PRODUCT
 </div>
 
